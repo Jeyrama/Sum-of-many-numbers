@@ -13,4 +13,9 @@ f(n=100) // returns 5050
 
 It's your duty to verify that n is a valid positive integer number. 
 If not, please, return false.
+
+
+// Solution
+
+
 */
