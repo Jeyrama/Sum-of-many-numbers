@@ -22,3 +22,7 @@ function f(n) {
 };
 
 // or
+
+function f(n) {
+  return (n % 1 !== 0 || n <= 0) ? false: (((n + 1) * n) / 2);
+};
