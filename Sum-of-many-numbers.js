@@ -13,9 +13,10 @@ f(n=100) // returns 5050
 
 It's your duty to verify that n is a valid positive integer number. 
 If not, please, return false.
-
+*/
 
 // Solution
 
-
-*/
+function f(n) {
+  return (parseInt(n) === n && n > 0) ? n*(n+1)/2 : false;
+};
